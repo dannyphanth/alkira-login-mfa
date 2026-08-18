@@ -16,8 +16,11 @@ export function LoginPage() {
   }
 
   return (
-    <Container maxWidth="sm" sx={{ py: 8 }}>
-      <Paper sx={{ p: 4 }}>
+    <Container
+      maxWidth="sm"
+      sx={{ minHeight: '100vh', display: 'flex', alignItems: 'center', py: 4 }}
+    >
+      <Paper sx={{ p: 4, width: '100%' }}>
         <Stack spacing={3}>
           <Typography variant="h4" component="h1">
             Sign in
